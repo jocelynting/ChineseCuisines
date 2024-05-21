@@ -1,0 +1,22 @@
+.filter__button {
+  padding: 0.5rem 1rem;
+  background-color: var(--color-light-green);
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+.filter__button:hover {
+  background-color: var(--color-header-background);
+  color: var(--color-header-text);
+}
+
+@media (min-width: 44rem) {
+  .filter__button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
