@@ -1,6 +1,6 @@
-import MajorCuisine from "../subcomponents/MajorCuisine";
-import "../../styles/Home.css";
-import cuisines from "../../data/cuisines";
+import MajorCuisine from '../subcomponents/MajorCuisine';
+import '../../styles/Home.css';
+import cuisines from '../../data/cuisines';
 
 function Home() {
   const majorCuisineItem = cuisines.map((cuisine) => (
